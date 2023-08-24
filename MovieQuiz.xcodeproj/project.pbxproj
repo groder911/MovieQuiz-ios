@@ -186,7 +186,7 @@
 				AD1ABAB02831907B00B3E448 /* MovieQuiz */,
 				E79414F82A92B6B4005F44B8 /* MovieQuizTests */,
 				E79415052A92B79A005F44B8 /* MovieQuizUITests */,
-				E7E7A39F2A97806C0085C7C7 /* MovieQuizViewControllerMock */,
+				E7E7A39F2A97806C0085C7C7 /* MovieQuizViewControllerMockLaunchTests */,
 				AD1ABAAF2831907B00B3E448 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -282,12 +282,12 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		E7E7A39F2A97806C0085C7C7 /* MovieQuizViewControllerMock */ = {
+		E7E7A39F2A97806C0085C7C7 /* MovieQuizViewControllerMockLaunchTests */ = {
 			isa = PBXGroup;
 			children = (
 				E7E7A3A02A97806C0085C7C7 /* MovieQuizViewControllerMockLaunchTests.swift */,
 			);
-			path = MovieQuizViewControllerMock;
+			path = MovieQuizViewControllerMockLaunchTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

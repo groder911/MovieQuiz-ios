@@ -5,7 +5,6 @@
 //  Created by Yuriy Varvenskiy on 24.08.2023.
 //
 
-import Foundation
 import XCTest
 @testable import MovieQuiz
 
@@ -25,7 +24,7 @@ final class MovieQuizViewControllerMock: MovieQuizViewControllerProtocol {
     func hideImageBorder() {
         
     }
-
+    
     func showLoadingIndicator() {
     
     }
