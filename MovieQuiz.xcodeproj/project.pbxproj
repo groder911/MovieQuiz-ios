@@ -42,7 +42,6 @@
 		E79415262A956AFE005F44B8 /* MoviesLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79415252A956AFE005F44B8 /* MoviesLoaderTests.swift */; };
 		E79415282A956EF0005F44B8 /* MovieQuizViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79415272A956EF0005F44B8 /* MovieQuizViewControllerProtocol.swift */; };
 		E7E7A3992A977FEF0085C7C7 /* MovieQuizViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7A3982A977FEF0085C7C7 /* MovieQuizViewControllerMock.swift */; };
-		E7E7A3C22A97B9790085C7C7 /* MovieQuizViewControllerMockLaunchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7A3C12A97B9790085C7C7 /* MovieQuizViewControllerMockLaunchTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,7 +130,6 @@
 		E7E7A39E2A97806C0085C7C7 /* MovieQuizViewControllerMock.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieQuizViewControllerMock.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E7A3AB2A97B4410085C7C7 /* MovieQuizViewControllerMockLaunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieQuizViewControllerMockLaunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E7A3BF2A97B9790085C7C7 /* MovieQuizViewControllerMockLaunchTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieQuizViewControllerMockLaunchTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7E7A3C12A97B9790085C7C7 /* MovieQuizViewControllerMockLaunchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieQuizViewControllerMockLaunchTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,7 +214,6 @@
 				AD1ABAB02831907B00B3E448 /* MovieQuiz */,
 				E79414F82A92B6B4005F44B8 /* MovieQuizTests */,
 				E79415052A92B79A005F44B8 /* MovieQuizUITests */,
-				E7E7A3C02A97B9790085C7C7 /* MovieQuizViewControllerMockLaunchTest */,
 				AD1ABAAF2831907B00B3E448 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -312,14 +309,6 @@
 				E78B5C8E2A573E48000EA0EF /* YS Display-Medium.ttf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		E7E7A3C02A97B9790085C7C7 /* MovieQuizViewControllerMockLaunchTest */ = {
-			isa = PBXGroup;
-			children = (
-				E7E7A3C12A97B9790085C7C7 /* MovieQuizViewControllerMockLaunchTest.swift */,
-			);
-			path = MovieQuizViewControllerMockLaunchTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -648,7 +637,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E7A3C22A97B9790085C7C7 /* MovieQuizViewControllerMockLaunchTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
