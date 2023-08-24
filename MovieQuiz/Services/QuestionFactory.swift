@@ -34,7 +34,7 @@ final class QuestionFactory: QuestionFactoryProtocol {
             let thresholdValue = Int.random(in: 1..<10)
             let correctAnswer: Bool
             
-            if Bool.random() {
+            if .random() {
                 text += " больше "
                 correctAnswer = Int(rating) > thresholdValue
             } else {

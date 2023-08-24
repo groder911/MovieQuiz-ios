@@ -139,7 +139,7 @@
                         <outlet property="activityIndicator" destination="7Ze-EJ-06a" id="nKP-it-zNI"/>
                         <outlet property="counterLabel" destination="naI-bs-LtH" id="EyW-ub-lNz"/>
                         <outlet property="imageView" destination="6lc-PN-kna" id="Bby-X3-EHt"/>
-                        <outlet property="noButton" destination="Lr8-or-Gsv" id="anc-Ux-PGf"/>
+                        <outlet property="noButton" destination="Lr8-or-Gsv" id="A6C-FI-OUQ"/>
                         <outlet property="textLabel" destination="Xof-Xt-eCG" id="eRL-Pm-CCK"/>
                         <outlet property="yesButton" destination="IZL-8G-M5v" id="1G7-J1-rTa"/>
                         <outletCollection property="buttons" destination="IZL-8G-M5v" collectionClass="NSMutableArray" id="RsP-Zs-2gi"/>

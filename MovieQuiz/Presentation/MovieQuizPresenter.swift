@@ -122,7 +122,7 @@ final class MovieQuizPresenter: QuestionFactoryDelegate {
         }
     }
     
-    func proceedToNextQuestionOrResults() {
+    private func proceedToNextQuestionOrResults() {
         self.viewController?.hideImageBorder()
         
         if self.isLastQuestion() {
