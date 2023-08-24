@@ -19,7 +19,6 @@ final class MovieQuizViewController: UIViewController, MovieQuizViewControllerPr
     private var currentQuestion: QuizQuestion?
     private var statisticService: StatisticService?
     
-    
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +36,7 @@ final class MovieQuizViewController: UIViewController, MovieQuizViewControllerPr
         setNeedsStatusBarAppearanceUpdate()
         
     }
-    
+
     func show(quiz step: QuizStepViewModel) {
         
         self.counterLabel.text = step.questionNumber
@@ -106,8 +105,6 @@ final class MovieQuizViewController: UIViewController, MovieQuizViewControllerPr
         let alertPresenter = AlertPresenter(controller: self, model: alertModel)
         alertPresenter.run()
     }
-       
-    
     
     // MARK: - IBAction
     
@@ -121,3 +118,4 @@ final class MovieQuizViewController: UIViewController, MovieQuizViewControllerPr
     }
 }
 
+   
