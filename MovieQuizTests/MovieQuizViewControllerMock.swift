@@ -10,15 +10,15 @@ import XCTest
 
 final class MovieQuizViewControllerMock: MovieQuizViewControllerProtocol {
     func show(quiz step: QuizStepViewModel) {
-    
+        
     }
     
     func show(quiz result: QuizResultsViewModel) {
-    
+        
     }
     
     func highlightImageBorder(isCorrectAnswer: Bool) {
-    
+        
     }
     
     func hideImageBorder() {
@@ -26,20 +26,20 @@ final class MovieQuizViewControllerMock: MovieQuizViewControllerProtocol {
     }
     
     func showLoadingIndicator() {
-    
+        
     }
     
     func hideLoadingIndicator() {
-    
+        
     }
     
     func showNetworkError(message: String) {
-    
+        
     }
 }
 
 final class MovieQuizPresenterTests: XCTestCase {
-        func testPresenterConvertModel() throws {
+    func testPresenterConvertModel() throws {
         let viewControllerMock = MovieQuizViewControllerMock()
         let sut = MovieQuizPresenter(viewController: viewControllerMock)
         

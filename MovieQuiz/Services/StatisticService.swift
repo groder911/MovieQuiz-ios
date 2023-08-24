@@ -18,9 +18,9 @@ struct GameRecord: Codable {
 
 protocol StatisticService {
     func store(correct count: Int, total amount: Int)
-    var totalAccuracy: Double { get set } // средняя точность
-    var gamesCount: Int { get set } // кол-во сыгр. квизов
-    var bestGame: GameRecord { get set } // рекорд
+    var totalAccuracy: Double { get set } 
+    var gamesCount: Int { get set }
+    var bestGame: GameRecord { get set }
 }
 
 final class StatisticServiceImplementation: StatisticService {

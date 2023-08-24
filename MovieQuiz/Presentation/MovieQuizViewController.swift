@@ -36,7 +36,7 @@ final class MovieQuizViewController: UIViewController, MovieQuizViewControllerPr
         setNeedsStatusBarAppearanceUpdate()
         
     }
-
+    
     func show(quiz step: QuizStepViewModel) {
         
         self.counterLabel.text = step.questionNumber
@@ -118,4 +118,4 @@ final class MovieQuizViewController: UIViewController, MovieQuizViewControllerPr
     }
 }
 
-   
+
